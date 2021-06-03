@@ -1,0 +1,48 @@
+.tasks 
+    width: 100vw
+    height: 100vh
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    &-header 
+        margin-top: 5vh
+        font-size: 36px
+        font-weight: 700
+    
+
+    &-main 
+        width: 100%
+        margin-top: 10vh
+        display: flex
+        justify-content: space-around
+
+        &-col 
+            width: 25%
+
+            &-unImportant, &-important, &-veryImportant 
+                cursor: pointer
+                font-size: 30px
+                font-weight: 650
+                margin-bottom: 30px
+                opacity: 0.8
+
+                &:hover 
+                    opacity: 1
+                
+            
+
+            &-unImportant 
+                color: green
+            
+
+            &-important 
+                color: yellow
+            
+
+            &-veryImportant 
+                color: red
+            
+        
+    

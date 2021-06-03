@@ -1,0 +1,75 @@
+body 
+    background-color: lightblue
+
+
+.form  
+    width: 35%
+    margin: 0vh auto
+    display: flex
+    flex-direction: column
+    background-color: whitesmoke
+    padding: 20px
+    border-radius: 20px
+    align-items: center
+    margin-top: 7%
+
+    &-title  
+        color: #303952 
+     
+
+    span  
+        margin-bottom: 5px
+        font-size: 14px
+        color: rgb(61, 79, 88)
+        position: relative
+        height: 16px
+        width: 250px
+        font-weight: bold
+        line-height: 16px
+        letter-spacing: 0.02em
+        text-align: start
+     
+    &-name, &-login, &-password  
+        width: 300px 
+        outline: none 
+        margin-bottom: 20px 
+        height: 40px 
+        font-size: 20px 
+        padding-left: 10px 
+        border-radius: 10px 
+        border: 1px solid rgba(128, 128, 128, 0.651) 
+        
+        &:hover
+            border: 1px solid rgb(184, 196, 194);
+            transition: border-color 150ms ease-in-out 0s;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+     
+    &-btn-submit  
+        margin-bottom: 5px 
+        height: 50px 
+        width: 150px 
+        background-color: lightseagreen 
+        color: whitesmoke 
+        border: none 
+        border-radius: 5px 
+        cursor: pointer 
+        outline: none 
+        font-size: 20px 
+
+        &:hover  
+            background-color: rgb(69, 128, 240) 
+         
+        &:active  
+            transform: scale(0.9) 
+            transition: 0.4s 
+         
+     
+
+    &-btn-regist  
+        color: cornflowerblue 
+
+        &:active  
+            color: red 
+         
+     
+ 
